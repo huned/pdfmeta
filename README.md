@@ -1,4 +1,4 @@
-Sensibly rename PDFs downloaded from statement providers like banks.
+Extract metadata from PDFs
 
 TODOs:
 
