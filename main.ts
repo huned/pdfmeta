@@ -12,6 +12,8 @@ if (import.meta.main) {
       if (fileInfo.isFile) {
         const metadata = await pdfMetadata(filename)
         Deno.stdout.write(textEncoder.encode(JSON.stringify(metadata, null, 2)))
+
+        // TODO this generates invalid JSON if run for more than one file
         Deno.stdout.write(textEncoder.encode('\n'))
       }
     }
