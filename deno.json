@@ -1,0 +1,5 @@
+{
+  "tasks": {
+    "dev": "deno lint && deno run --allow-read --allow-run --watch main.ts ./tmp/tmp/pdf"
+  }
+}
